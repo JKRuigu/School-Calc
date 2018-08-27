@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import Home from './pages/home/Home';
+import { Navbar,Footer } from './AppComponents'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>School Calc</h1>
+        <Navbar />
+        <Home />
+        <Footer />
       </div>
     );
   }
